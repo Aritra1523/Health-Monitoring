@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+}
+.page3{
+    min-height: 100vh;
+    width: 100%;   
+}
+.about{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about h1{
+    font-size: 7.5vw;
+    font-weight: 400;
+    padding-top: 1.5vw;
+    opacity: 1;
+    color: rgb(43, 110, 186);
+}
+.motive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mtext{
+    width: 50%;
+    margin: 2vw;
+}
+.mtext h2{
+    font-size: 3vw;
+}
+.mtext h2 span{
+    color: rgb(15, 33, 226);
+}
+.mtext h5{
+    padding-top: 2vw;
+    font-size: 1.1vw;
+    font-weight: 100;
+    color: rgba(15, 32, 226, 0.629);
+}
+.mimg{
+    width: 50%;
+}
+.mimg img{
+    height: 18vw;
+    width: 70%;
+    object-fit: cover;
+    padding-top: 4vw;
+    margin-left: 4vw;
+}
+.member h2{
+    font-size: 3vw;
+    text-align: center;
+    padding: 5vw 0vw;
+}
+.member h2 span{
+    color: rgb(15, 33, 226);
+}
+.mem1{
+    display: flex;
+}
+.team{
+    width: 80%;
+    margin: 4vw;
+}
+.team h4{
+    padding-top: 2vw;
+    color: rgba(62, 78, 251, 0.941);
+}
+.teamimg{
+    height: 10vw;
+    width: 10.5vw;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 70px;
+}
+.teamimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 70px;
+}

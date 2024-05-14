@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    
+}
+.bg{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(36, 9, 238, 0.215);
+    z-index: 0;
+}
+.bg h1{
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    font-size: 3.5vw;
+}
+.bg h1 span{
+    color: rgb(15, 33, 226);;
+}
+.fullbox{
+    height: 400px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid blue;
+    border-radius: 20px;
+    background-color: white;
+    z-index: 999;
+    display: flex;
+}
+.contactbox{
+    height: 375px;
+    width: 35%;
+    background-color: rgba(15, 32, 226, 0.655);
+    margin: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.contactbox h3{
+    font-size: 1.4vw;
+    padding: 25px;
+}
+.contactbox i{
+    padding: 20px;
+    line-height: 65px;
+    font-size: 1.4vw;
+}
+.contactbox a{
+    color: white;
+    text-decoration: none;
+}
+.foorm form{
+    font-size: 1.3vw;
+    font-weight: 100;
+    margin: 20px;
+    border: none;
+}
+input[type="text"], input[type="email"], textarea{
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+.foorm #submit{
+    font-size: 1.3vw;
+    padding: 1px 10px;
+    border-radius: 10px;
+    background-color: rgba(15, 32, 226, 0.866);
+    color: white;
+    border: none;
+}
+.footer{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    bottom: 0%;
+    padding-left: 20px;
+}
+.foot1 h1{
+    font-size: 1.4vw;
+    font-weight: 200;
+}
+.foot1 h1 span{
+    color:rgba(15, 32, 226, 0.866)
+}
+.foot2{
+    font-size: 0.9vw;
+    font-weight: 200;
+    display: flex;
+    gap: 30px;
+}
+.foot3{
+    font-size: 1.1vw;
+    display: flex;
+    gap: 30px;
+}
+.foot3 i:nth-child(2){
+    color:rgba(15, 32, 226, 0.866);
+}
+.foot3 i:nth-child(1){
+    color:rgba(226, 15, 96, 0.866);
+}
